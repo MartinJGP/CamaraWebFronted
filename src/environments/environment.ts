@@ -1,5 +1,5 @@
 export const environment = {
   production: false,
-  apiUrl: 'https://venta-camaras-seguridad.onrender.com',
+  apiUrl: 'http://localhost:8080',
   whatsappNumber: '51999999999'
 };

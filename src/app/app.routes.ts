@@ -1,15 +1,15 @@
 import { Routes } from '@angular/router';
-import { Inicio } from './pages/inicio/inicio';
-import { Camaras } from './pages/camaras/camaras';
-import { DetalleCamara } from './pages/detalle-camara/detalle-camara';
-import { LoginComponent } from './pages/login/login';
-import { RegistroComponent } from './pages/registro/registro';
-import { Carrito } from './pages/carrito/carrito';
-import { Pagos } from './pages/pagos/pagos';
-import { Resenas } from './pages/resenas/resenas';
-import { Historial } from './pages/historial/historial';
-import { Admin } from './pages/admin/admin';
-import { Perfil } from './pages/perfil/perfil';
+import { Inicio } from './components/inicio/inicio';
+import { Camaras } from './components/camaras/camaras';
+import { DetalleCamara } from './components/detalle-camara/detalle-camara';
+import { LoginComponent } from './components/login/login';
+import { RegistroComponent } from './components/registro/registro';
+import { Carrito } from './components/carrito/carrito';
+import { Pagos } from './components/pagos/pagos';
+import { Resenas } from './components/resenas/resenas';
+import { Historial } from './components/historial/historial';
+import { Admin } from './components/admin/admin';
+import { Perfil } from './components/perfil/perfil';
 import { authGuard } from './guards/auth.guard';
 import { adminGuard } from './guards/admin.guard';
 
